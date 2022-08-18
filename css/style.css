@@ -1,0 +1,99 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&family=Poppins:wght@500;600;700&display=swap');
+/* end font family */
+
+/* body css */
+body {
+  height: 175rem;
+  font-family: 'Montserrat', sans-serif;
+}
+/* end body css */
+
+/* navbar css */
+.active {
+  color: #0b67b8 !important;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: #0b67b8 !important;
+}
+.active_change {
+  background-color: #ecf2f9 !important;
+  border-bottom: 2px solid #0b67b8;
+  height: 3.5rem;
+  transition: all 250ms ease-in-out;
+  transition-delay: 50ms;
+}
+.active_change ul li a {
+  color: #000;
+}
+/* end navbar css */
+
+/* custom button */
+button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #0b67b8;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: none;
+}
+
+button:after {
+  content: ' ';
+  width: 0%;
+  height: 100%;
+  background: #ffd401;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+
+button:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+button span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover span {
+  color: #0b67b8;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+/* custom button */
+/* logo img */
+.img-size {
+  height: 40px;
+  width: 40px;
+}
+/* end logo img */
