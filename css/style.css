@@ -9,6 +9,31 @@ body {
 }
 /* end body css */
 
+/* typography */
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #0b67b8;
+}
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0b67b8;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  line-height: 15px;
+}
+p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: left;
+}
+/* end typography */
+
 /* navbar css */
 .active {
   color: #0b67b8 !important;
@@ -97,3 +122,74 @@ button:hover span {
   width: 40px;
 }
 /* end logo img */
+
+/* slider section img */
+.info-img {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #0b67b8;
+}
+
+.container-gap {
+  margin-top: 65px;
+  background-color: #ecf2f9;
+  height: 250px;
+}
+
+.info-img {
+  float: right;
+}
+
+/* end slider section img */
+
+/* main about section */
+.space-container {
+  margin-top: 80px;
+}
+.line-gap {
+  height: 3px;
+  background-color: #ffd401;
+  width: 120px;
+  margin-top: -5px;
+}
+.about-section {
+  margin-top: 50px;
+}
+
+/* end main about section */
+
+/* main service section */
+.service-section {
+  margin-top: 50px;
+}
+/* end main service section */
+
+/* main education section */
+.education-section {
+  margin-top: 50px;
+}
+/* end main education section */
+
+/* main education section */
+.skill-section {
+  margin-top: 50px;
+}
+/* end main education section */
+
+/* main portfolio section */
+.portfolio-section {
+  margin-top: 50px;
+}
+/* end main portfolio section */
+
+/* main team section */
+.team-section {
+  margin-top: 50px;
+}
+/* end main team section */
+
+/* main contact section */
+.contact-section {
+  margin-top: 50px;
+}
+/* end main contact section */
