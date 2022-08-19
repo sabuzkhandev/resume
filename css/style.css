@@ -132,7 +132,11 @@ button:hover span {
 .container-gap {
   margin-top: 65px;
   background-color: #ecf2f9;
-  height: 250px;
+  height: 350px;
+}
+
+.con-center{
+  
 }
 
 .info-img {
@@ -169,17 +173,43 @@ button:hover span {
 }
 /* end main education section */
 
-/* main education section */
+/* main skill section */
 .skill-section {
   margin-top: 50px;
 }
-/* end main education section */
+.html{
+  background-color: #E44F25;
+}
+.css{
+  background-color: #1572B7;
+}
+.bootstrap{
+  background-color: #37156B;
+}
+.tailwind{
+  background-color: #38BDF8;
+}
+.javascript{
+  background-color: #F0DB4F;
+}
+.laravel{
+  background-color: #FE3523;
+}
+.vue{
+  background-color: #03BC83;
+}
+/* end main skill section */
 
 /* main portfolio section */
 .portfolio-section {
   margin-top: 50px;
 }
 /* end main portfolio section */
+
+.bg-pricing{
+  background-color: #0b67b8 !important;
+  color: #fff;
+}
 
 /* main team section */
 .team-section {
@@ -190,5 +220,13 @@ button:hover span {
 /* main contact section */
 .contact-section {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 /* end main contact section */
+
+/* footer section */
+.footer-icon{
+  height: 25px;
+  width: 25px;
+}
+/* end footer section */
