@@ -123,6 +123,22 @@ button:hover span {
 /* end logo img */
 
 /* slider section img */
+/* .personal{
+    animation: moveup 1s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode:forwards;
+  }
+  @keyframes moveup {
+    0%{
+      transform: translateY(-100px);
+      visibility: visible;
+    }
+    100%{
+      transform: translateY(0px);
+      visibility: visible;
+    }
+  }  */
 .info-img {
   height: 300px;
   width: 300px;
@@ -158,14 +174,39 @@ button:hover span {
 /* end slider section img */
 
 /* main about section */
+/* .about{
+  animation: moveup 1s linear 1;
+  animation-delay: 3s;
+  visibility: hidden;
+  animation-fill-mode:forwards;
+}
+@keyframes moveup {
+  0%{
+    transform: translateY(-100px);
+    visibility: visible;
+  }
+  100%{
+    transform: translateY(0px);
+    visibility: visible;
+  }
+} */
+
+.section__head{
+  padding-bottom: 6px;
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+}
+.section__head::after{
+  position: absolute;
+    content: "";
+    bottom: -1px;
+    left: 0;
+    height: 3px;
+    width: 50px;
+    background: #ffd401;
+}
 .space-container {
   margin-top: 80px;
-}
-.line-gap {
-  height: 3px;
-  background-color: #ffd401;
-  width: 120px;
-  margin-top: -5px;
 }
 .about-section {
   margin-top: 50px;
@@ -280,3 +321,23 @@ button:hover span {
   background: #ffd401; 
 }
 /* scroll bar css */
+.back-to-top-section{
+  margin-top: 30px;
+  background-color: #0b67b8;
+}
+
+.back-to-top{
+  padding: 8px 0px;
+
+}
+
+.back-to-top a{
+    color: #ffd401;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+.back-to-top a:hover{
+  color: #c7c7c7;
+}
